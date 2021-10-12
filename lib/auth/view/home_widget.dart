@@ -124,6 +124,7 @@ class HomeWidgetState extends State<HomeWidget> {
       ShowDialog.showCustomDialog(
           context, APPStrings.noInternetConnection, APPStrings.ok);
     }
+
     setState(() {});
   }
 }
